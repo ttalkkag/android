@@ -199,6 +199,6 @@ fabric.properties
 ### AndroidStudio Patch ###
 
 !/gradle/wrapper/gradle-wrapper.jar
-!/app/src/main/java/icon/ttalkkag/service
+!/app/src/main/java/icon/ttalkkag/service/
 
 # End of https://www.toptal.com/developers/gitignore/api/androidstudio,macos,windows
