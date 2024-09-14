@@ -52,7 +52,7 @@
             android:id="@+id/tv_add_submit"
             android:layout_width="140dp"
             android:layout_height="35dp"
-            android:textSize="15dp"
+            android:textSize="15sp"
             android:background="@drawable/shape_rect_10_3e8bff_fill"
             android:text="AI 요약하기"
             android:textAlignment="center"
