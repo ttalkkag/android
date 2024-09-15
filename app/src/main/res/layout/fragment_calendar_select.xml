@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
 
@@ -13,13 +13,10 @@
 
         <TextView
             android:id="@+id/tv_calendar_select_title"
+            style="@style/TextAppearance.TTALKKAG.Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif"
             android:text="일정 확정하기"
-            android:textColor="#3E8BFF"
-            android:textSize="25sp"
-            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
@@ -31,29 +28,25 @@
             android:id="@+id/rv_calendar_select_list"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginBottom="100dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
             android:layout_marginRight="20dp"
+            android:layout_marginBottom="100dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_calendar_select_title"
-            >
+            app:layout_constraintTop_toBottomOf="@id/tv_calendar_select_title">
 
         </androidx.recyclerview.widget.RecyclerView>
 
         <TextView
             android:id="@+id/tv_calendar_select_submit"
+            style="@style/TextAppearance.TTALKKAG.ConfirmBtn"
             android:layout_width="180dp"
             android:layout_height="35dp"
-            android:textSize="15sp"
+            android:layout_marginBottom="40dp"
             android:background="@drawable/shape_rect_10_3e8bff_fill"
             android:text="일정 확정하기"
-            android:textAlignment="center"
-            android:gravity="center"
-            android:textColor="#FFFFFF"
-            android:layout_marginBottom="40dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
