@@ -27,126 +27,106 @@
         style="@style/TextAppearance.TTALKKAG.ScheduleList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="11dp"
         android:text="제목:"
-        app:layout_constraintBottom_toBottomOf="@id/view_schedule_list_bg"
-        app:layout_constraintEnd_toEndOf="@id/view_schedule_list_bg"
-        app:layout_constraintHorizontal_bias="0.07"
         app:layout_constraintStart_toStartOf="@id/view_schedule_list_bg"
-        app:layout_constraintTop_toTopOf="@id/view_schedule_list_bg"
-        app:layout_constraintVertical_bias="0.14" />
+        app:layout_constraintTop_toTopOf="@id/view_schedule_list_bg" />
 
     <TextView
         android:id="@+id/tv_schedule_list_title"
         style="@style/TextAppearance.TTALKKAG.ScheduleList"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="65dp"
+        android:layout_marginTop="11dp"
         android:text="제목 입력"
-        app:layout_constraintBottom_toBottomOf="@id/view_schedule_list_bg"
-        app:layout_constraintEnd_toEndOf="@id/view_schedule_list_bg"
         app:layout_constraintStart_toStartOf="@id/view_schedule_list_bg"
-        app:layout_constraintTop_toTopOf="@id/view_schedule_list_bg"
-        app:layout_constraintVertical_bias="0.14" />
+        app:layout_constraintTop_toTopOf="@id/view_schedule_list_bg" />
 
     <TextView
         style="@style/TextAppearance.TTALKKAG.ScheduleList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="32dp"
         android:text="날짜:"
-        app:layout_constraintBottom_toBottomOf="@id/view_schedule_list_bg"
-        app:layout_constraintEnd_toEndOf="@id/view_schedule_list_bg"
-        app:layout_constraintHorizontal_bias="0.07"
         app:layout_constraintStart_toStartOf="@id/view_schedule_list_bg"
-        app:layout_constraintTop_toTopOf="@id/view_schedule_list_bg"
-        app:layout_constraintVertical_bias="0.32" />
+        app:layout_constraintTop_toTopOf="@id/view_schedule_list_bg" />
 
     <TextView
         android:id="@+id/tv_schedule_list_date"
         style="@style/TextAppearance.TTALKKAG.ScheduleList"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="65dp"
+        android:layout_marginTop="32dp"
         android:text="날짜 입력"
-        app:layout_constraintBottom_toBottomOf="@id/view_schedule_list_bg"
-        app:layout_constraintEnd_toEndOf="@id/view_schedule_list_bg"
         app:layout_constraintStart_toStartOf="@id/view_schedule_list_bg"
-        app:layout_constraintTop_toTopOf="@id/view_schedule_list_bg"
-        app:layout_constraintVertical_bias="0.32" />
+        app:layout_constraintTop_toTopOf="@id/view_schedule_list_bg" />
 
     <TextView
         style="@style/TextAppearance.TTALKKAG.ScheduleList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="53dp"
         android:text="시간:"
-        app:layout_constraintBottom_toBottomOf="@id/view_schedule_list_bg"
-        app:layout_constraintEnd_toEndOf="@id/view_schedule_list_bg"
-        app:layout_constraintHorizontal_bias="0.07"
         app:layout_constraintStart_toStartOf="@id/view_schedule_list_bg"
-        app:layout_constraintTop_toTopOf="@id/view_schedule_list_bg"
-        app:layout_constraintVertical_bias="0.5" />
+        app:layout_constraintTop_toTopOf="@id/view_schedule_list_bg" />
 
     <TextView
         android:id="@+id/tv_schedule_list_time"
         style="@style/TextAppearance.TTALKKAG.ScheduleList"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="65dp"
+        android:layout_marginTop="53dp"
         android:text="시간 입력"
-        app:layout_constraintBottom_toBottomOf="@id/view_schedule_list_bg"
-        app:layout_constraintEnd_toEndOf="@id/view_schedule_list_bg"
         app:layout_constraintStart_toStartOf="@id/view_schedule_list_bg"
-        app:layout_constraintTop_toTopOf="@id/view_schedule_list_bg"
-        app:layout_constraintVertical_bias="0.5" />
+        app:layout_constraintTop_toTopOf="@id/view_schedule_list_bg" />
 
     <TextView
         style="@style/TextAppearance.TTALKKAG.ScheduleList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="74dp"
         android:text="내용:"
-        app:layout_constraintBottom_toBottomOf="@id/view_schedule_list_bg"
-        app:layout_constraintEnd_toEndOf="@id/view_schedule_list_bg"
-        app:layout_constraintHorizontal_bias="0.07"
         app:layout_constraintStart_toStartOf="@id/view_schedule_list_bg"
-        app:layout_constraintTop_toTopOf="@id/view_schedule_list_bg"
-        app:layout_constraintVertical_bias="0.68" />
+        app:layout_constraintTop_toTopOf="@id/view_schedule_list_bg" />
 
     <TextView
         android:id="@+id/tv_schedule_list_detail"
         style="@style/TextAppearance.TTALKKAG.ScheduleList"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="65dp"
+        android:layout_marginTop="74dp"
         android:text="내용 입력"
-        app:layout_constraintBottom_toBottomOf="@id/view_schedule_list_bg"
-        app:layout_constraintEnd_toEndOf="@id/view_schedule_list_bg"
         app:layout_constraintStart_toStartOf="@id/view_schedule_list_bg"
-        app:layout_constraintTop_toTopOf="@id/view_schedule_list_bg"
-        app:layout_constraintVertical_bias="0.68" />
+        app:layout_constraintTop_toTopOf="@id/view_schedule_list_bg" />
 
     <TextView
         style="@style/TextAppearance.TTALKKAG.ScheduleList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="95dp"
         android:text="장소:"
-        app:layout_constraintBottom_toBottomOf="@id/view_schedule_list_bg"
-        app:layout_constraintEnd_toEndOf="@id/view_schedule_list_bg"
-        app:layout_constraintHorizontal_bias="0.07"
         app:layout_constraintStart_toStartOf="@id/view_schedule_list_bg"
-        app:layout_constraintTop_toTopOf="@id/view_schedule_list_bg"
-        app:layout_constraintVertical_bias="0.86" />
+        app:layout_constraintTop_toTopOf="@id/view_schedule_list_bg" />
 
     <TextView
         android:id="@+id/tv_schedule_list_location"
         style="@style/TextAppearance.TTALKKAG.ScheduleList"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="65dp"
+        android:layout_marginTop="95dp"
         android:text="장소 입력"
-        app:layout_constraintBottom_toBottomOf="@id/view_schedule_list_bg"
-        app:layout_constraintEnd_toEndOf="@id/view_schedule_list_bg"
         app:layout_constraintStart_toStartOf="@id/view_schedule_list_bg"
-        app:layout_constraintTop_toTopOf="@id/view_schedule_list_bg"
-        app:layout_constraintVertical_bias="0.86" />
+        app:layout_constraintTop_toTopOf="@id/view_schedule_list_bg" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
