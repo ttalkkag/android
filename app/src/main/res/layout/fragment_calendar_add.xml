@@ -37,7 +37,7 @@
             android:fontFamily="sans-serif"
             android:hint="일정을 입력하세요"
             android:inputType="textMultiLine"
-            android:paddingLeft="15dp"
+            android:paddingStart="15dp"
             android:scrollbarSize="10dp"
             android:scrollbars="vertical"
             android:textSize="12sp"
