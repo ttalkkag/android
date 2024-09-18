@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "TTAL KKAG"
+rootProject.name = "TTALKKAG"
 include(":app")

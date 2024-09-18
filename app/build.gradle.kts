@@ -12,6 +12,7 @@ android {
 
     defaultConfig {
         applicationId = "icon2.ttalkkag"
+        main
         minSdk = 24
         targetSdk = 34
         versionCode = 1
