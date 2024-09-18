@@ -7,11 +7,12 @@ plugins {
 }
 
 android {
-    namespace = "icon.ttalkkag.service"
+    namespace = "icon2.ttalkkag"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "icon.ttalkkag.service"
+        applicationId = "icon2.ttalkkag"
+        main
         minSdk = 24
         targetSdk = 34
         versionCode = 1
