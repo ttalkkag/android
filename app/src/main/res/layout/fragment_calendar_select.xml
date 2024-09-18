@@ -12,11 +12,11 @@
         android:background="@color/white">
 
         <TextView
-            android:id="@+id/tv_calendar_add_title"
+            android:id="@+id/tv_calendar_select_title"
             style="@style/TextAppearance.TTALKKAG.Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="일정 추가하기"
+            android:text="일정 확정하기"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
@@ -24,37 +24,29 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.1" />
 
-        <EditText
-            android:id="@+id/et_calendar_add_input"
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_calendar_select_list"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="70dp"
+            android:layout_marginTop="30dp"
             android:layout_marginRight="20dp"
-            android:layout_marginBottom="150dp"
-            android:background="@drawable/shape_rect_10_white000_fill_3e8bff_line"
-            android:elevation="5dp"
-            android:fontFamily="sans-serif"
-            android:hint="일정을 입력하세요"
-            android:inputType="textMultiLine"
-            android:paddingStart="15dp"
-            android:paddingEnd="15dp"
-            android:scrollbarSize="10dp"
-            android:scrollbars="vertical"
-            android:textSize="12sp"
+            android:layout_marginBottom="100dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_calendar_add_title" />
+            app:layout_constraintTop_toBottomOf="@id/tv_calendar_select_title">
+
+        </androidx.recyclerview.widget.RecyclerView>
 
         <TextView
-            android:id="@+id/tv_calendar_add_submit"
+            android:id="@+id/tv_calendar_select_submit"
             style="@style/TextAppearance.TTALKKAG.ConfirmBtn"
-            android:layout_width="140dp"
+            android:layout_width="180dp"
             android:layout_height="35dp"
-            android:layout_marginBottom="40sp"
+            android:layout_marginBottom="40dp"
             android:background="@drawable/shape_rect_10_3e8bff_fill"
-            android:text="AI 요약하기"
+            android:text="일정 확정하기"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
