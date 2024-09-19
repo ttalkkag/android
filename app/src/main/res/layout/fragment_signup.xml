@@ -25,12 +25,13 @@
 
     <TextView
         android:id="@+id/tv_signup_name"
-        style="@style/TextAppearance.TTALKKAG.signup"
+        style="@style/TextAppearance.TTALKKAG.Signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="343dp"
         android:layout_marginBottom="466dp"
         android:text="닉네임"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -60,14 +61,14 @@
 
     <TextView
         android:id="@+id/tv_signup_login"
-        style="@style/TextAppearance.TTALKKAG.signup"
+        style="@style/TextAppearance.TTALKKAG.Signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="14dp"
         android:layout_marginBottom="14dp"
         android:text="로그인"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/iv_signup_loginback"
         app:layout_constraintStart_toStartOf="@+id/iv_signup_loginback"
         app:layout_constraintTop_toTopOf="@+id/iv_signup_loginback" />
