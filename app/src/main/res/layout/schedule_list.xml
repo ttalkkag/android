@@ -14,7 +14,7 @@
         android:layout_marginEnd="15dp"
         android:layout_marginTop="15dp"
         android:background="@drawable/shape_rect_10_white000_fill_b3b3b3_line"
-        app:layout_constraintBottom_toBottomOf="@id/tv_schedule_list_location"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_schedule_list_location"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -125,7 +125,7 @@
         app:layout_constraintTop_toBottomOf="@id/tv_schedule_list_detail" />
 
     <TextView
-        android:id="@+id/tv_schedule_list_location"
+        android:id="@id/tv_schedule_list_location"
         style="@style/TextAppearance.TTALKKAG.ScheduleList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
