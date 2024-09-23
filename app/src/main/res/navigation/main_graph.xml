@@ -7,20 +7,26 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="icon.ttalkkag.presentation.home.HomeFragment"
+        android:name="icon2.ttalkkag.presentation.home.HomeFragment"
         android:label="HomeFragment"
         tools:layout="@layout/fragment_home"/>
 
     <fragment
         android:id="@+id/calendarAddFragment"
-        android:name="icon.ttalkkag.presentation.calendarAdd.CalendarAddFragment"
+        android:name="icon2.ttalkkag.presentation.calendar.CalendarAddFragment"
         android:label="CalendarAddFragment"
         tools:layout="@layout/fragment_calendar_add"/>
 
     <fragment
         android:id="@+id/mypageFragment"
-        android:name="icon.ttalkkag.presentation.mypage.MypageFragment"
+        android:name="icon2.ttalkkag.presentation.mypage.MypageFragment"
         android:label="MypageFragment"
         tools:layout="@layout/fragment_mypage"/>
+
+    <fragment
+        android:id="@+id/calendarSelectFragment"
+        android:name="icon2.ttalkkag.presentation.calendar.CalendarSelectFragment"
+        android:label="CalendarSelectFragment"
+        tools:layout="@layout/fragment_calendar_select"/>
 
 </navigation>
